@@ -1,0 +1,5 @@
+= GhostLight Research
+
+this is the web pages for link:https://ghostlight-research.com/[GhostLight Research]
+
+GhostLight Research helps creators, educators, and small teams make sense of tools, workflows, and information—quietly, carefully, and with a lantern in the dark.
