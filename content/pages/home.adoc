@@ -5,5 +5,6 @@
 :summary: under construction
 :save-as: index.html
 :url:
+:summary: welcome to GhostLight Research - an independant information professional who shines a gost light on whatever an individual or business needs information on
 
-under construction
+Welcome to GhostLight Research! I, an independant information professional, shine a ghost light on the information you need to know.
