@@ -21,12 +21,24 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 
-DEFAULT_PAGINATION = 1
+# Tell Pelican to generate both 'index' and 'blog' as direct templates
+DIRECT_TEMPLATES = ['blog']
+
+# Map your blog template
+BLOG_SAVE_AS = 'blog.html'
+BLOG_URL = 'blog.html'
+
+# Completely disable the default index generation
+INDEX_SAVE_AS = ''
+INDEX_URL = ''
+
+# Move pagination from the default index to your new blog template
+# The 'None' value tells it to fall back to your DEFAULT_PAGINATION number
+PAGINATED_TEMPLATES = {'blog': None}
 
 # ARTICLE_URL = '{date:%Y}/{slug}/'
 # ARTICLE_SAVE_AS = '{date:%Y}/{slug}/index.html'
 DEFAULT_CATEGORY = 'other'
-DISPLAY_TAGS_ON_MENU = True
 EXTRA_PATH_METADATA = {
     'images/favicons/android-chrome-192x192.png': {'path': 'android-chrome-192x192.png'},
     'images/favicons/android-chrome-512x512.png': {'path': 'android-chrome-512x512.png'},
@@ -43,7 +55,6 @@ OVERRIDE_CSS = 'styles.css'
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['asciidoc_reader', 'sitemap']
 STATIC_PATHS = ['css', 'images', 'robots.txt', 'wrangler.jsonc']
-SUMMARY_MAX_PARAGRAPHS = 1
 THEME = 'themes/GhostLight-Research-Theme'
 TWITTER_USERNAME = os.getenv('TWITTER_USERNAME')
 USE_FOLDER_AS_CATEGORY = False
