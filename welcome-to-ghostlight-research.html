@@ -37,15 +37,9 @@
     <a href="https://ghostlight-research.com/">
         <button class="secondary sr-theme-dark">home</button>
     </a>
-        <a href="https://ghostlight-research.com/categories.html">
-            <button class="secondary sr-theme-dark">categories</button>
+        <a href="https://ghostlight-research.com/pages/about.html">
+            <button class="secondary sr-theme-dark">about</button>
         </a>
-        <a href="https://ghostlight-research.com/tags.html">
-            <button class="secondary sr-theme-dark">tags</button>
-        </a>
-            <a href="https://ghostlight-research.com/pages/about.html">
-                <button class="secondary sr-theme-dark">about</button>
-            </a>
 </nav>
 
 <main class="container-fluid">
@@ -62,25 +56,20 @@
     </article>
 </main>
 
-
-    <div class="container-fluid">
-        <div id="disqus_thread"></div>
+<disqus class="container-fluid">
         <script>
             var disqus_config = function () {
-                this.page.url = "https://ghostlight-research.com/welcome-to-ghostlight-research.html";
-                this.page.identifier = "welcome-to-ghostlight-research";
+                this.page.url = 'https://ghostlight-research.com/welcome-to-ghostlight-research.html';
+                this.page.identifier = 'welcome-to-ghostlight-research';
             };
-            (function () {
+            (function() {
                 var d = document, s = d.createElement('script');
                 s.src = 'https://sarahs-website.disqus.com/embed.js';
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
         </script>
-        <noscript>Please enable JavaScript to view the
-            <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-        </noscript>
-    </div>
+</disqus>
 
 <footer class="container-fluid sr-theme-light sr-text-centre">
     copyright 2026 Sarah Rogue
