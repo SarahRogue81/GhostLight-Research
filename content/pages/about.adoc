@@ -1,0 +1,17 @@
+= about
+
+:date: 2025-10-04
+
+i'm a geeky emo🖤 girl
+
+if you want, please look me up on one of my social media accounts
+
+== social media
+
+- link:https://bsky.app/profile/sarah-rogue.me[Bluesky]
+- link:https://github.com/SarahRogue81[GitHub]
+- link:https://www.pinterest.com/rogue0121[Pinterest]
+- link:https://www.reddit.com/user/No_Koala7908[Reddit]
+- link:https://www.tiktok.com/@sarah.rogue4[TikTok]
+- link:https://x.com/SarahRogue81[Twitter]
+- link:https://www.youtube.com/%40SarahRogue-u2j[YouTube]

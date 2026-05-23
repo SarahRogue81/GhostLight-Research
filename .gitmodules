@@ -1,0 +1,6 @@
+[submodule "plugins/asciidoc_reader"]
+	path = plugins/asciidoc_reader
+	url = git@github.com:SarahRogue81/asciidoc_reader.git
+[submodule "themes/GhostLight-Research-Theme"]
+	path = themes/GhostLight-Research-Theme
+	url = git@github.com:SarahRogue81/GhostLight-Research-Theme.git
